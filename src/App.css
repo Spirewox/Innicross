@@ -1,0 +1,36 @@
+@font-face {
+  font-family: 'Nekst-Black';
+  src: url(./assets/fonts/Nekst-Black.otf);
+}
+@font-face {
+  font-family: 'Nekst-Bold';
+  src: url(./assets/fonts/Nekst-Bold.otf);
+}
+@font-face {
+  font-family: 'Nekst-Light';
+  src: url(./assets/fonts/Nekst-Light.otf);
+}
+@font-face {
+  font-family: 'Nekst-Medium';
+  src: url(./assets/fonts/Nekst-Medium.otf);
+}
+@font-face {
+  font-family: 'Nekst-Semibold';
+  src: url(./assets/fonts/Nekst-SemiBold.otf);
+}
+@font-face {
+  font-family: 'Nekst-Thin';
+  src: url(./assets/fonts/Nekst-Thin.otf);
+}
+
+@font-face {
+  font-family: 'Nekst-Regular';
+  src: url(./assets/fonts/Nekst-Thin.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
