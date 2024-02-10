@@ -9,15 +9,15 @@ import Group37 from '../assets/images/Group 37.svg';
 
 const Partners = () => {
   return (
-    <div className="bg-[#FFF] h-screen z-10 ">
+    <div className="bg-[#FFF]  z-10 ">
       <h3
-        className="text-[23px] capitalize text-center w-[325px] pt-[60px] mx-auto text-[#000] md:w-[563px] "
+        className="text-[23px] capitalize text-center w-[325px] pt-[60px] mx-auto text-[#000] lg:w-[563px] "
         style={{ fontFamily: 'Nekst-Regular' }}
       >
         We are trusted by the most reputable people
       </h3>
 
-      <div className=" flex flex-wrap bg-[#000] h-[295px] gap-[29px] py-[42px] pl-[30px] mt-[40px] ">
+      <div className=" flex flex-wrap bg-[#000] gap-[29px] py-[42px] pl-[30px] mt-[40px] ">
         <span>
           <img src={Teni} alt="" className="w-[100px] h-auto " />
         </span>
