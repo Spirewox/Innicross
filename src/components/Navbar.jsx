@@ -47,7 +47,7 @@ const Navbar = () => {
             }`}
           >
             <ul
-              className={` flex flex-row gap-[42px] pb-[25px] pt-[26px] text-base ${
+              className={`  gap-[42px] pb-[25px] pt-[26px] text-base ${
                 isMenuOpen ? 'menu-open-ul' : ''
               }`}
               style={{ zIndex: 102 }}
