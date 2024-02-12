@@ -1,10 +1,10 @@
 import { useState } from 'react';
-import Logo from '../assets/images/Group 25.svg';
-import logoMobile from '../assets/images/Group 25.svg';
-import closeIcon from '../assets/images/x.svg';
+import Logo from '../../assets/images/Group 25.svg';
+import logoMobile from '../../assets/images/Group 25.svg';
+import closeIcon from '../../assets/images/x.svg';
 import './css/navbar.css';
 
-import Hambuger from '../assets/images/DotsThreeVertical.svg';
+import Hambuger from '../../assets/images/DotsThreeVertical.svg';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

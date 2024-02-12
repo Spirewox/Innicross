@@ -1,7 +1,7 @@
-import Logo from '../assets/images/Group.png';
-import LogoDesktop from '../assets/images/Group_big.png';
-import X from '../assets/images/Link - View Pipe on X → SVG.svg';
-import LinkedIn from '../assets/images/Link - View Pipe on LinkedIn → SVG.svg';
+import Logo from '../../assets/images/Group.png';
+import LogoDesktop from '../../assets/images/Group_big.png';
+import X from '../../assets/images/Link - View Pipe on X → SVG.svg';
+import LinkedIn from '../../assets/images/Link - View Pipe on LinkedIn → SVG.svg';
 
 const Footer = () => {
   return (

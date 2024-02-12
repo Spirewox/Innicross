@@ -1,9 +1,9 @@
-import Footer from "../components/Footer";
-import Hero from "../components/Hero";
-import Images from "../components/Images";
-import MediaCustomer from "../components/Media_Customer";
-import Partners from "../components/Partners";
-import Services from "../components/Services";
+
+import Hero from "../components/homepage/Hero";
+import Images from '../components/homepage/Images';
+import MediaCustomer from '../components/homepage/Media_Customer';
+import Partners from '../components/homepage/Partners';
+import Services from '../components/homepage/Services';
 
 const Homepage = () => {
   return (
@@ -13,7 +13,7 @@ const Homepage = () => {
       <Partners />
       <Services />
       <MediaCustomer />
-      <Footer />
+
     </div>
   );
 }
