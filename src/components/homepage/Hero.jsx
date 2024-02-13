@@ -11,7 +11,7 @@ const Hero = () => {
   
 
   return (
-    <div className="h-screen relative overflow-hidden bg-[#09090B]">
+    <div className="min-h-screen relative overflow-hidden bg-[#09090B]">
       <div className='h-full'>
       <img
         src={Gradient}

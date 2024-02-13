@@ -13,7 +13,6 @@ const Homepage = () => {
       <Partners />
       <Services />
       <MediaCustomer />
-
     </div>
   );
 }

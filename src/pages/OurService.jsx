@@ -1,9 +1,9 @@
-import Service from "../components/services/service";
+import Service from "../components/services/Service";
 
 
 const OurService = () => {
   return (
-    <div>
+    <div> 
       <Service />
     </div>
   );

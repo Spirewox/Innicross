@@ -7,7 +7,7 @@ const Images = () => {
   const images = [Music1, Music2, Music3];
 
   return (
-    <div className="bg-[#000] flex w-full min-w-full overflow-x-hidden pt-[84px] pb-[34px] ">
+    <div className="bg-[#000] flex w-full min-w-full overflow-x-hidden mt-[84px] pb-[34px] ">
       <div className="image-container flex gap-[35px] lg:gap-[40px] ">
         {images.map((image, index) => (
           <img

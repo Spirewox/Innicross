@@ -1,0 +1,4 @@
+.input-span {
+ text-edge: cap alphabetic;
+ text-box-trim: 'both';
+}

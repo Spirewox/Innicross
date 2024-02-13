@@ -2,9 +2,10 @@ import { useState } from 'react';
 import Logo from '../../assets/images/Group 25.svg';
 import logoMobile from '../../assets/images/Group 25.svg';
 import closeIcon from '../../assets/images/x.svg';
+import { Link } from 'react-router-dom';
 import './css/navbar.css';
-
 import Hambuger from '../../assets/images/DotsThreeVertical.svg';
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -52,10 +53,10 @@ const Navbar = () => {
               }`}
               style={{ zIndex: 102 }}
             >
-              <li>Home</li>
-              <li>Our Services</li>
-              <li>Portfolio</li>
-              <li>Contact Us</li>
+              <Link to='/' >Home</Link>
+              <Link to='/our-services' >Our Services</Link>
+              <Link>Portfolio</Link>
+              <Link>Contact Us</Link>
             </ul>
             <button className="bg-[#1481BA] mt-[103px] rounded-[8px] px-[20px] py-[16px] flex justify-center items-center gap-[4px] ">
               {' '}
@@ -102,10 +103,10 @@ const Navbar = () => {
         </div>
         <nav className="flex-grow flex justify-center">
           <ul className="flex flex-row gap-[42px] text-base">
-            <li>Home</li>
-            <li>Our Services</li>
-            <li>Portfolio</li>
-            <li>Contact Us</li>
+            <Link to='/' >Home</Link>
+            <Link to='/our-services' >Our Services</Link>
+            <Link>Portfolio</Link>
+            <Link>Contact Us</Link>
           </ul>
         </nav>
         <button className="bg-[#1481BA] rounded-[8px] px-[20px] py-[16px] flex justify-center items-center gap-[4px] mr-[32px] ">
