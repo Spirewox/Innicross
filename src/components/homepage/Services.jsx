@@ -1,18 +1,21 @@
-import RightArrow from '../assets/images/arrow-right.svg';
-import Service1 from '../assets/images/service1.png'
-import Service2 from '../assets/images/service2.png';
-import Service2_big from '../assets/images/service2-big.png';
-import Service3 from '../assets/images/service3.png';
-import Service4 from '../assets/images/service4.png';
-import Service4_big from '../assets/images/service4-big.png';
-import Service5 from '../assets/images/service5.png';
-import Service6 from '../assets/images/service6.png';
-import Service6_big from '../assets/images/service6-big.png'
+import RightArrow from '../../assets/images/arrow-right.svg';
+import Service1 from '../../assets/images/service1.png'
+import Service2 from '../../assets/images/service2.png';
+import Service2_big from '../../assets/images/service2-big.png';
+import Service3 from '../../assets/images/service3.png';
+import Service4 from '../../assets/images/service4.png';
+import Service4_big from '../../assets/images/service4-big.png';
+import Service5 from '../../assets/images/service5.png';
+import Service6 from '../../assets/images/service6.png';
+import Service6_big from '../../assets/images/service6-big.png'
 
 const Services = () => {
   return (
     <div className="bg-[#fff] ">
-      <div className="ml-[40px] w-[282px] lg:w-[646px] lg:mt-[126px] lg:ml-[131px]" id='serviceComponent'>
+      <div
+        className="ml-[40px] w-[282px] lg:w-[646px] lg:mt-[126px] lg:ml-[131px]"
+        id="serviceComponent"
+      >
         <h3
           className="text-[#000] text-[32px] font-bold pt-[64px] lg:text-[72px] lg:font-[700]    "
           style={{ fontFamily: 'Nekst-Bold' }}
@@ -32,12 +35,12 @@ const Services = () => {
           </p>
           <h3
             className="text-[#000] text-[26px] font-normal font-[600] mt-[20px] text-center w-[249px] lg:text-[40px] lg:w-[390px] "
-            style={{ fontFamily: 'Nekst-Semibold' }}
+            style={{ fontFamily: 'Nekst-Semibold', lineHeight: 'normal' }}
           >
             Ignite your global presence with our release strategies
           </h3>
           <p
-            className="mt-[15px] text-base font-[500] tracking-[-0.32px] text-center w-[284px] lg:mt-[24px] lg:text-[20px] lg:tracking-[-0.4px] "
+            className="mt-[15px] text-base font-[500] tracking-[-0.32px] text-center w-[284px] lg:mt-[24px] lg:text-[20px] leading-[22.48px] lg:leading-[28.1px] lg:tracking-[-0.4px] "
             style={{ fontFamily: 'Nekst-Medium' }}
           >
             We ensure that your releases capture attention, dominate charts, and
@@ -54,8 +57,13 @@ const Services = () => {
             </span>
           </button>
         </div>
-        <div className="h-[414px] lg:min-h-[630px] flex-1 mt-[65px] mx-[20px]  rounded-[19.179px] ">
-          <img src={Service1} alt="" className="h-full w-full " />
+        <div className=" lg:h-[630px] flex-1 mt-[65px] mx-[20px]  rounded-[19.179px] ">
+          <img
+            src={Service1}
+            alt=""
+            style={{ maxWidth: '100%' }}
+            className="w-full object-cover rounded-[19.179px] lg:h-full"
+          />
         </div>
       </div>
 
@@ -69,13 +77,13 @@ const Services = () => {
               DIGITAL ADVERTISEMENTS
             </p>
             <h3
-              className="text-[26px] font-normal font-[600] mt-[20px] text-center w-[249px] lg:text-start lg:text-[40px] lg:w-[551px] "
-              style={{ fontFamily: 'Nekst-Semibold' }}
+              className="text-[26px] font-normal font-[600] mt-[20px] text-center w-[249px] lg:text-start lg:text-[40px] lg:w-[551px]  "
+              style={{ fontFamily: 'Nekst-Semibold', lineHeight: 'normal' }}
             >
               Curate campaigns that captivate your audience
             </h3>
             <p
-              className="  mt-[15px] text-base font-[500] tracking-[-0.32px] text-center w-[284px] lg:text-start lg:text-[20px] lg:tracking-[-0.4px]"
+              className="  mt-[15px] text-base font-[500] tracking-[-0.32px] text-center w-[284px] lg:text-start lg:text-[20px]  leading-[22.48px] lg:leading-[28.1px] lg:tracking-[-0.4px]"
               style={{ fontFamily: 'Nekst-Medium' }}
             >
               Orchestrate your success with Campaign Management that resonates
@@ -118,12 +126,12 @@ const Services = () => {
           </p>
           <h3
             className="text-[#000] text-[26px] font-normal font-[600] mt-[20px] text-center w-[249px]  lg:text-[40px] lg:w-[390px] "
-            style={{ fontFamily: 'Nekst-Semibold' }}
+            style={{ fontFamily: 'Nekst-Semibold', lineHeight: 'normal' }}
           >
             Step into the spotlight with our TV and Radio promotions
           </h3>
           <p
-            className="mt-[15px] text-base font-[500] tracking-[-0.32px] text-center w-[284px] lg:mt-[24px] lg:text-[20px] lg:tracking-[-0.4px] "
+            className="mt-[15px] text-base font-[500] tracking-[-0.32px] text-center w-[284px] lg:mt-[24px] lg:text-[20px]  leading-[22.48px] lg:leading-[28.1px] lg:tracking-[-0.4px] "
             style={{ fontFamily: 'Nekst-Medium' }}
           >
             We ensure that your releases capture attention, dominate charts, and
@@ -141,8 +149,13 @@ const Services = () => {
           </button>
         </div>
 
-        <div className="h-[414px] lg:min-h-[630px] flex-1 mt-[65px] mx-[20px] rounded-[19.179px] ">
-          <img src={Service3} alt="" className="h-full w-full" />
+        <div className=" lg:h-[630px] flex-1 mt-[65px] mx-[20px]  rounded-[19.179px] ">
+          <img
+            src={Service3}
+            alt=""
+            style={{ maxWidth: '100%' }}
+            className="w-full object-cover rounded-[19.179px] lg:h-full"
+          />
         </div>
       </div>
 
@@ -157,12 +170,12 @@ const Services = () => {
             </p>
             <h3
               className="text-[#000] text-[26px] font-normal font-[600] mt-[20px] text-center w-[249px] lg:text-start lg:text-[40px] lg:w-[551px] "
-              style={{ fontFamily: 'Nekst-Semibold' }}
+              style={{ fontFamily: 'Nekst-Semibold', lineHeight: 'normal' }}
             >
               Craft your narrative with press releases and editorials
             </h3>
             <p
-              className=" mt-[15px] text-base font-[500] tracking-[-0.32px] text-center w-[284px] lg:text-start lg:text-[20px] lg:tracking-[-0.4px] text-[#000] "
+              className=" mt-[15px] text-base font-[500] tracking-[-0.32px] text-center w-[284px] lg:text-start lg:text-[20px]  leading-[22.48px] lg:leading-[28.1px] lg:tracking-[-0.4px] text-[#000] "
               style={{ fontFamily: 'Nekst-Medium' }}
             >
               We turn stories into headlines , creating narratives that demand
@@ -206,12 +219,12 @@ const Services = () => {
           </p>
           <h3
             className="text-[#000] text-[26px] font-normal font-[600] mt-[20px] text-center w-[249px] lg:text-[40px] lg:w-[390px] lg:text-[#fff] "
-            style={{ fontFamily: 'Nekst-Semibold' }}
+            style={{ fontFamily: 'Nekst-Semibold', lineHeight: 'normal' }}
           >
             Navigate the market with precision using Data Analytics
           </h3>
           <p
-            className="mt-[15px] text-base font-[500] tracking-[-0.32px] text-center w-[284px] lg:mt-[24px] lg:text-[20px] lg:tracking-[-0.4px] lg:text-[#fff] "
+            className="mt-[15px] text-base font-[500] tracking-[-0.32px] text-center w-[284px] lg:mt-[24px] lg:text-[20px]  leading-[22.48px] lg:leading-[28.1px] lg:tracking-[-0.4px] lg:text-[#fff] "
             style={{ fontFamily: 'Nekst-Medium' }}
           >
             Our data-driven insights transform information into actionable
@@ -228,8 +241,13 @@ const Services = () => {
           </button>
         </div>
 
-        <div className="h-[414px] lg:min-h-[630px] flex-1 mt-[65px] mx-[20px]  rounded-[19.179px]">
-          <img src={Service5} alt="" className="h-full w-full" />
+        <div className=" lg:h-[630px] flex-1 mt-[65px] mx-[20px]  rounded-[19.179px] ">
+          <img
+            src={Service5}
+            alt=""
+            style={{ maxWidth: '100%' }}
+            className="w-full object-cover rounded-[19.179px] lg:h-full"
+          />
         </div>
       </div>
 
@@ -244,12 +262,12 @@ const Services = () => {
             </p>
             <h3
               className="text-[26px] font-normal font-[600] mt-[20px] text-center w-[249px] lg:text-start lg:text-[40px] lg:w-[551px] "
-              style={{ fontFamily: 'Nekst-Semibold' }}
+              style={{ fontFamily: 'Nekst-Semibold', lineHeight: 'normal' }}
             >
               Elevate your events to experience that resonate
             </h3>
             <p
-              className="mt-[15px] text-base font-[500] tracking-[-0.32px] text-center w-[284px] lg:text-start lg:text-[20px] lg:tracking-[-0.4px]"
+              className="mt-[15px] text-base font-[500] tracking-[-0.32px] text-center w-[284px] lg:text-start lg:text-[20px]  leading-[22.48px] lg:leading-[28.1px] lg:tracking-[-0.4px]"
               style={{ fontFamily: 'Nekst-Medium' }}
             >
               We create lasting memories that linger in the heart of your
@@ -276,11 +294,12 @@ const Services = () => {
           />
         </div>
 
-        {/* <div className="h-[414px] mt-[65px]  mx-[20px] rounded-[19.179px] ">
-          <img src={Service6} alt="" className="h-full w-full" />
-        </div> */}
         <div className="h-[414px] lg:min-h-[630px] flex-1 mt-[65px] mx-[20px]  rounded-[19.179px] lg:hidden">
-          <img src={Service6} alt="" className="h-full w-full " />
+          <img
+            src={Service6}
+            alt=""
+            className="h-full w-full  rounded-[19.179px] "
+          />
         </div>
       </div>
     </div>

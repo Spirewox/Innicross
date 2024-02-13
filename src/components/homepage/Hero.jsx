@@ -1,6 +1,6 @@
-import Gradient from '../assets/images/image.png';
-import Gradient2 from '../assets/images/image (1).png';
-import RightArrow from '../assets/images/arrow-right.svg';
+import Gradient from '../../assets/images/image.png';
+import Gradient2 from '../../assets/images/image (1).png';
+import RightArrow from '../../assets/images/arrow-right.svg';
 
 const Hero = () => {
 
@@ -11,8 +11,8 @@ const Hero = () => {
   
 
   return (
-    <div className="h-screen relative overflow-hidden bg-[#09090B]">
-      {/* Background image */}
+    <div className="min-h-screen relative overflow-hidden bg-[#09090B]">
+      <div className='h-full'>
       <img
         src={Gradient}
         alt=""
@@ -34,7 +34,7 @@ const Hero = () => {
           Maximize Your Market Potential with Innicross
         </h1>
         <button
-          className="bg-[#1481BA] flex text-white p-[16px] w-[218px] rounded hover:bg-blue-600 gap-[8px] "
+          className="bg-[#1481BA] flex text-white p-[16px] w-fit rounded hover:bg-blue-600 gap-[8px] "
           style={{ fontFamily: 'Nekst-Semibold' }}
           onClick={scrollToService}
         >
@@ -51,7 +51,8 @@ const Hero = () => {
         alt=""
         className="absolute bottom-[-164px] right-[-204px] z-0 lg:bottom-0 lg:right-0"
       />
-    </div>
+    </div></div>
+      
   );
 };
 

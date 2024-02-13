@@ -1,20 +1,29 @@
-import './App.css'
-import Navbar from './components/Navbar';
-import Homepage from './pages/Homepage'
-
+import './App.css';
+import Navbar from './components/homepage/Navbar';
+import Footer from './components/homepage/Footer';
+import Homepage from './pages/Homepage';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import OurService from './pages/OurService';
 
 function App() {
-  
-
   return (
     <>
-      {/* Navbar */}
-      <div className="pt-[30px] fixed z-10 ">
-        <Navbar />
-      </div>
-      <Homepage />
+      <Router>
+        {/* Navbar */}
+        <div className="pt-[30px] fixed z-10 ">
+          <Navbar />
+        </div>
+        <Routes>
+          <Route exact path="/" element={<Homepage />} />
+          <Route exact path="/our-services" element={<OurService />} />
+        </Routes>
+
+        <div>
+          <Footer />
+        </div>
+      </Router>
     </>
   );
 }
 
-export default App
+export default App;
