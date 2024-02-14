@@ -141,7 +141,7 @@ const Service = () => {
           />
           <div className="text-center">
             <h3
-              className="ml-[22px] text-start mt-[146px] w-full max-w-[372px] lg:text-center text-[#fff] text-[54px] font-[700] capitalize lg:max-w-full "
+              className="ml-[22px] text-start mt-[146px] w-full max-w-[372px] lg:text-center text-[#fff] text-[32px] lg:text-[54px] font-[700] capitalize lg:max-w-full "
               style={{ lineHeight: 'normal', fontFamily: 'Nekst-Bold' }}
             >
               Which of our services would you like to explore?

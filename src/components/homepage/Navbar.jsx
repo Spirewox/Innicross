@@ -53,10 +53,16 @@ const Navbar = () => {
               }`}
               style={{ zIndex: 102 }}
             >
-              <Link to='/' >Home</Link>
-              <Link to='/our-services' >Our Services</Link>
-              <Link>Portfolio</Link>
-              <Link>Contact Us</Link>
+              <Link to="/" onClick={closeMenu}>
+                Home
+              </Link>
+              <Link to="/our-services" onClick={closeMenu}>
+                Our Services
+              </Link>
+              <Link to="/portfolio" onClick={closeMenu}>
+                Portfolio
+              </Link>
+              <Link onClick={closeMenu}>Contact Us</Link>
             </ul>
             <button className="bg-[#1481BA] mt-[103px] rounded-[8px] px-[20px] py-[16px] flex justify-center items-center gap-[4px] ">
               {' '}
@@ -67,7 +73,9 @@ const Navbar = () => {
             <img
               src={Hambuger}
               alt="menu"
-              className={`lg:hidden absolute  right-[20px] top-[42px] cursor-pointer ${isMenuOpen ? 'hidden' : ''}`}
+              className={`lg:hidden absolute  right-[20px] top-[42px] cursor-pointer ${
+                isMenuOpen ? 'hidden' : ''
+              }`}
               onClick={toggleMenu}
             />
             {isMenuOpen && (
@@ -105,7 +113,7 @@ const Navbar = () => {
           <ul className="flex flex-row gap-[42px] text-base">
             <Link to='/' >Home</Link>
             <Link to='/our-services' >Our Services</Link>
-            <Link>Portfolio</Link>
+            <Link to='/portfolio'>Portfolio</Link>
             <Link>Contact Us</Link>
           </ul>
         </nav>

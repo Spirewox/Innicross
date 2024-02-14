@@ -4,6 +4,7 @@ import Footer from './components/homepage/Footer';
 import Homepage from './pages/Homepage';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import OurService from './pages/OurService';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/our-services" element={<OurService />} />
+          <Route exact path="/portfolio" element={<Portfolio />} />
         </Routes>
 
         <div>
