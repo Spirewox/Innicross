@@ -11,7 +11,7 @@ const Hero = () => {
           alt=""
           className="absolute inset-0 z-0 left-[-119px] lg:left-[-30px] "
         />
-        <div className="absolute">
+        <div className="absolute top-0 left-0 right-0 bottom-0 m-auto flex flex-col justify-center items-center lg:max-w-[1021px]">
           <div className="text-center pt-[192px] ">
             <img src={Logo} alt="" className="mx-auto" />
           </div>

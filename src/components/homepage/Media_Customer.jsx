@@ -2,6 +2,21 @@ import './css/media_customer.css';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Vector1 from '../../assets/images/vector-1.svg';
+import Vector2 from '../../assets/images/vector-2.svg';
+import Vector3 from '../../assets/images/vector-3.png';
+import Vector4 from '../../assets/images/vector-4.svg';
+import Vector5 from '../../assets/images/vector-5.svg';
+import Vector6 from '../../assets/images/vector-6.png';
+import Vector7 from '../../assets/images/vector-7.png';
+import Vector8 from '../../assets/images/vector-8.svg';
+import Vector9 from '../../assets/images/vector-9.svg';
+import Vector10 from '../../assets/images/vector-10.png';
+import Vector11 from '../../assets/images/vector-11.png';
+import Vector12 from '../../assets/images/vector-12.png';
+import Vector13 from '../../assets/images/vector-13.png';
+import Vector14 from '../../assets/images/vector-14.png';
+import Vector15 from '../../assets/images/vector-15.svg';
 
 const MediaCustomer = () => {
   const testimonies = () => [
@@ -20,6 +35,24 @@ const MediaCustomer = () => {
       name: 'Paul DeJoe',
       position: 'CO-FOUNDER & COO',
     },
+  ];
+
+  const vector = [
+    Vector1,
+    Vector5,
+    Vector6,
+    Vector4,
+    Vector2,
+    Vector3,
+    Vector7,
+    Vector8,
+    Vector9,
+    Vector10,
+    Vector11,
+    Vector12,
+    Vector13,
+    Vector14,
+    Vector15,
   ];
 
   const settings = {
@@ -74,29 +107,21 @@ const MediaCustomer = () => {
         >
           We work with the best to promote your brand
         </h3>
+      </div>
 
-        {/* <div className="w-fu">
-          <div
-            className="flex justify-evenly overflow-x-auto whitespace-nowrap animate-marquee w-fu"
-            style={{ width: '100%' }}
-          >
-            <img src={Vector1} alt="" />
-            <img src={Vector2} alt="" />
-            <img src={Vector3} alt="" />
-            <img src={Vector4} alt="" />
-            <img src={Vector5} alt="" />
-            <img src={Vector6} alt="" />
-            <img src={Vector7} alt="" />
-            <img src={Vector8} alt="" />
-            <img src={Vector9} alt="" />
-            <img src={Vector10} alt="" />
-            <img src={Vector11} alt="" />
-            <img src={Vector12} alt="" />
-            <img src={Vector13} alt="" />
-            <img src={Vector14} alt="" />
-            <img src={Vector15} alt="" />
+      <div className="flex w-full min-w-full overflow-x-hidden py-[18px] mt-[53px] bg-[#F7F9FC] ">
+        <div className="slider w-full">
+          <div className="image-container flex gap-[35px] max-h-[75px] lg:gap-[40px] lg:max-h-[115px] ">
+            {vector.map((image, index) => (
+              <img
+                key={index}
+                src={image}
+                alt=""
+                className="max-h-[75px] lg:max-h-full lg:block w-full lg:max-h-[115px]"
+              />
+            ))}
           </div>
-        </div> */}
+        </div>
       </div>
 
       <div className="bg-[#fff] mt-[103px] lg:mt-[188px] mb-[300px]">
