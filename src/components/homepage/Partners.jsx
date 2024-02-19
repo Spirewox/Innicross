@@ -1,7 +1,7 @@
 import Teni from '../../assets/images/TENI.png';
 import TSA from '../../assets/images/1ekyv_gC_400x400 1.png';
+import United from '../../assets/images/united-masters-review-930x562-1 1.png'
 import UM from '../../assets/images/logo-white 1.png';
-import US from '../../assets/images/channels4_profile 1.png';
 import Logo from '../../assets/images/1680012057813 1.png';
 import Warner from '../../assets/images/twitch-warner-music-group-partnership-article 1.png';
 import Sarz from '../../assets/images/SARZ.png';
@@ -25,11 +25,10 @@ const Partners = () => {
           <img src={TSA} alt="" className="w-[100px] h-auto " />
         </span>
         <span>
-          <img src={UM} alt="" className="w-[100px] h-auto " />
+          <img src={United} alt="" className="w-[100px] h-auto " />
         </span>
-
         <span>
-          <img src={US} alt="" className="w-[100px] h-auto " />
+          <img src={UM} alt="" className="w-[100px] h-auto " />
         </span>
         <span>
           <img src={Logo} alt="" className="w-[100px] h-auto " />

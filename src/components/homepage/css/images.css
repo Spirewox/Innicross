@@ -1,8 +1,8 @@
 
-.image-container {
+.images-container {
   width: max-content;
   overflow-x:hidden;
-  animation: moveSlideshow 40s linear infinite;
+  animation: moveSlideshow 100s linear infinite;
 }
 
 .image-container img {

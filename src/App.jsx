@@ -6,11 +6,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import OurService from './pages/OurService';
 import Portfolio from './pages/Portfolio';
 import OurTeam from './pages/OurTeam';
+import ScrollToTop from './components/Scroll_to_top'
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         {/* Navbar */}
         <div className="pt-[30px] fixed z-10 ">
           <Navbar />
@@ -19,7 +21,7 @@ function App() {
           <Route exact path="/" element={<Homepage />} />
           <Route exact path="/our-services" element={<OurService />} />
           <Route exact path="/portfolio" element={<Portfolio />} />
-          <Route exact path="/our-team" element={<OurTeam/>} />
+          <Route exact path="/our-team" element={<OurTeam />} />
         </Routes>
 
         <div>

@@ -27,7 +27,7 @@ const Images = () => {
   return (
     <div className="bg-[#000] flex w-full min-w-full overflow-x-hidden pt-[84px] pb-[34px] ">
       <div className="slider">
-        <div className="image-container flex gap-[35px] lg:gap-[40px] ">
+        <div className="images-container flex gap-[35px] lg:gap-[40px] ">
           {images.map((image, index) => (
             <img
               key={index}
