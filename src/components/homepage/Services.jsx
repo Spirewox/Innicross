@@ -174,7 +174,7 @@ const Services = () => {
         <div className="bg-[#000] flex flex-col justify-center items-center text-[#fff] mt-[65px] mx-[20px] rounded-[19.179px] lg:rounded-b-[0] lg:flex-row lg:justify-between lg:flex-1 lg:pb-[78px] ">
           <div className="flex flex-col justify-center items-center lg:justify-start lg:items-start lg:ml-[128px] ">
             <p
-              className="text-[#000] text-[12px] uppercase font-normal tracking-[1.279px] mt-[61.5px] text-center lg:text-[18px] lg:tracking-[2px] "
+              className="text-[#fff] text-[12px] uppercase font-normal tracking-[1.279px] mt-[61.5px] text-center lg:text-[18px] lg:tracking-[2px] "
               style={{ fontFamily: 'Inter' }}
             >
               PRESS RELEASES AND EDITORIALS
