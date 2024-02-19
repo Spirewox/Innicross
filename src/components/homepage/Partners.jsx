@@ -1,6 +1,6 @@
 import Teni from '../../assets/images/TENI.png';
 import TSA from '../../assets/images/1ekyv_gC_400x400 1.png';
-import UM from '../../assets/images/united-masters-review-930x562-1 1.png';
+import UM from '../../assets/images/logo-white 1.png';
 import US from '../../assets/images/channels4_profile 1.png';
 import Logo from '../../assets/images/1680012057813 1.png';
 import Warner from '../../assets/images/twitch-warner-music-group-partnership-article 1.png';
@@ -9,7 +9,7 @@ import Group37 from '../../assets/images/Group 37.svg';
 
 const Partners = () => {
   return (
-    <div className="bg-[#FFF]  z-10 ">
+    <div className="bg-[#FFF] z-10 ">
       <h3
         className="text-[23px] capitalize text-center w-[325px] pt-[60px] mx-auto text-[#000] lg:w-[563px] "
         style={{ fontFamily: 'Nekst-Regular' }}

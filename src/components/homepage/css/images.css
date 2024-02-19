@@ -1,14 +1,18 @@
+
 .image-container {
-  display: flex;
   width: max-content;
-  animation: marquee 20s linear infinite;
+  overflow-x:hidden;
+  animation: moveSlideshow 40s linear infinite;
 }
 
-@keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-50%);
+.image-container img {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-80%);  
   }
 }

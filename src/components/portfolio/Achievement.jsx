@@ -10,6 +10,7 @@ import Portfolio3Desktop from '../../assets/images/portfolio3_big.png';
 import Portfolio4Desktop from '../../assets/images/portfolio4_big.png';
 import Portfolio5Desktop from '../../assets/images/portfolio5_big.png';
 import Portfolio6Desktop from '../../assets/images/portfolio6_big.png';
+import ArrowUp from '../../assets/images/Arrow Right Up.svg';
 
 const Achievement = () => {
   return (
@@ -68,6 +69,24 @@ const Achievement = () => {
               Within a month of launch, we delivered a million streams,
               showcasing the project&apos;s widespread success and impact.
             </p>
+            <div
+              className=" mt-[40px] text-center lg:text-start"
+              style={{
+                fontFamily: 'Nekst-Medium',
+              }}
+            >
+              <span className="flex flex-row items-center justify-center lg:justify-start lg:ml-[45px]">
+                <a
+                  href="https://culturecustodian.com/review-memories-that-last-forever-2-is-a-showcase-of-brimming-talent/"
+                  target="__blank"
+                  className="text-[24px] text-[#1481BA] font-[500] underline  "
+                >
+                  Read More{' '}
+                </a>
+
+                <img src={ArrowUp} alt="" />
+              </span>
+            </div>
           </div>
         </div>
         <div className="flex flex-col justify-center items-center gap-[24px] mt-[42px] mb-[15px] lg:hidden">
@@ -128,6 +147,24 @@ const Achievement = () => {
               The project garnered significant attention and acclaim within the
               industry, establishing a platform for budding artists to shine.
             </p>
+            <div
+              className=" mt-[40px] text-center lg:text-start"
+              style={{
+                fontFamily: 'Nekst-Medium',
+              }}
+            >
+              <span className="flex flex-row items-center justify-center lg:justify-start lg:ml-[45px]">
+                <a
+                  href="https://punchng.com/next-afrobeats-star-to-groom-new-talents/?amp"
+                  target="__blank"
+                  className="text-[24px] text-[#1481BA] font-[500] underline  "
+                >
+                  Read More{' '}
+                </a>
+
+                <img src={ArrowUp} alt="" />
+              </span>
+            </div>
           </div>
         </div>
         <div className="flex flex-col justify-center items-center gap-[24px] mt-[42px] mb-[15px] lg:hidden">
@@ -188,6 +225,24 @@ const Achievement = () => {
               The sessions garnered widespread engagement and praise, amplifying
               the artist&apos;s presence and connection with fans.
             </p>
+            <div
+              className=" mt-[40px] text-center lg:text-start"
+              style={{
+                fontFamily: 'Nekst-Medium',
+              }}
+            >
+              <span className="flex flex-row items-center justify-center lg:justify-start lg:ml-[45px] ">
+                <a
+                  href="https://culturecustodian.com/the-sarz-academy-artistes-close-out-3-weekend-residency-at-afrika-shrine/"
+                  target="__blank"
+                  className="text-[24px] text-[#1481BA] font-[500] underline  "
+                >
+                  Read More{' '}
+                </a>
+
+                <img src={ArrowUp} alt="" />
+              </span>
+            </div>
           </div>
         </div>
 

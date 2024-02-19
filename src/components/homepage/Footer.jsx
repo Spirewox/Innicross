@@ -30,26 +30,40 @@ const Footer = () => {
             week.
           </p>
           <div>
-            <input
-              type="email"
-              placeholder="Enter email address..."
-              name=""
-              id=""
-              className="p-[11.223px] flex justify-center items-csnter rounded-[6.907px] bg-[#2E3038] text-[#9A9DAC] text-[11.223px] mt-[14.33px] w-full max-w-[290px]"
-              style={{ fontFamily: 'Nekst-Medium' }}
-            />
-            <button
-              className="flex pt-[9.411px] pr-[15.268px] pb-[10.273px] pl-[15.609px] bg-[#fff] rounded-[8632.542px] mt-[17.27px] text-[#000] "
-              style={{ fontFamily: 'Nekst-Semibold' }}
+            <form
+              action="https://gmail.us13.list-manage.com/subscribe/post?u=8324c0fde43499e52f635a892&amp;id=45890de4c1&amp;f_id=004bfae6f0"
+              method="post"
+              id="mc-embedded-subscribe-form"
+              name="mc-embedded-subscribe-form"
+              className="validate"
+              target="_blank"
+              
             >
-              Subscribe
-            </button>
+              <input
+                type="email"
+                placeholder="Enter email address..."
+                name="EMAIL"
+                id="mce-EMAIL"
+                className="p-[11.223px] flex justify-center items-csnter rounded-[6.907px] bg-[#2E3038] text-[#9A9DAC] text-[11.223px] mt-[14.33px] w-full max-w-[290px] required email"
+                style={{ fontFamily: 'Nekst-Medium' }}
+                required
+              />
+              <button
+                type="submit"
+                name="subscribe"
+                id="mc-embedded-subscribe"
+                className="flex pt-[9.411px] pr-[15.268px] pb-[10.273px] pl-[15.609px] bg-[#fff] rounded-[8632.542px] mt-[17.27px] text-[#000] "
+                style={{ fontFamily: 'Nekst-Semibold' }}
+              >
+                Subscribe
+              </button>
+            </form>
           </div>
         </div>
       </div>
 
       <div className="mt-[48.08px] h-[0.863px] bg-[#2E3038] w-full  " />
-      <div className="lg:flex lg:justify-between lg:mx-[104px] " >
+      <div className="lg:flex lg:justify-between lg:mx-[104px] ">
         <div
           className="flex flex-col gap-[26px] text-[#fafafcd9] lg:flex-row"
           style={{ fontFamily: 'Nekst-Medium' }}

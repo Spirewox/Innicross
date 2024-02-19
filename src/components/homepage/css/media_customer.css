@@ -19,3 +19,23 @@
   display: flex !important;
   gap: 24px;
 }
+
+
+.image-container {
+  width: max-content;
+  overflow-x:hidden;
+  animation: moveSlideshow 20s linear infinite;
+}
+
+.image-container img {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  margin: 0;
+}
+
+@keyframes moveSlideshow {
+  100% { 
+    transform: translateX(-100%);  
+  }
+}

@@ -6,7 +6,6 @@ import { Link } from 'react-router-dom';
 import './css/navbar.css';
 import Hambuger from '../../assets/images/DotsThreeVertical.svg';
 
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -62,12 +61,16 @@ const Navbar = () => {
               <Link to="/portfolio" onClick={closeMenu}>
                 Portfolio
               </Link>
-              <Link onClick={closeMenu}>Contact Us</Link>
+              <Link to="/our-team" onClick={closeMenu}>
+                The Buzz Builders
+              </Link>
             </ul>
-            <button className="bg-[#1481BA] mt-[103px] rounded-[8px] px-[20px] py-[16px] flex justify-center items-center gap-[4px] ">
-              {' '}
-              Get Started
-            </button>
+            <Link to="/our-services">
+              <button className="bg-[#1481BA] mt-[103px] rounded-[8px] px-[20px] py-[16px] flex justify-center items-center gap-[4px]">
+                {' '}
+                Get Started
+              </button>
+            </Link>
           </div>
           <div className="">
             <img
@@ -95,7 +98,7 @@ const Navbar = () => {
 
   // Large screen layout
   const renderDesktopNavbar = () => (
-    <div className='w-[100vw] mx-[20px] '>
+    <div className="w-[100vw] mx-[20px] ">
       <div
         className={`h-[56px] mx-[20px] lg:h-[70px] text-[#fff] bg-[#0B1B2B] rounded-[10px] flex flex-row justify-between items-center lg:mx-[64px] capitalize ${
           isMenuOpen ? 'z-50' : ''
@@ -111,16 +114,20 @@ const Navbar = () => {
         </div>
         <nav className="flex-grow flex justify-center">
           <ul className="flex flex-row gap-[42px] text-base">
-            <Link to='/' >Home</Link>
-            <Link to='/our-services' >Our Services</Link>
-            <Link to='/portfolio'>Portfolio</Link>
-            <Link>Contact Us</Link>
+            <Link to="/">Home</Link>
+            <Link to="/our-services">Our Secret Sauce</Link>
+            <Link to="/portfolio">Portfolio</Link>
+            <Link to="/our-team">
+              The Buzz Builders
+            </Link>
           </ul>
         </nav>
-        <button className="bg-[#1481BA] rounded-[8px] px-[20px] py-[16px] flex justify-center items-center gap-[4px] mr-[32px] ">
-          {' '}
-          Get Started
-        </button>
+        <Link to="/our-services">
+          <button className="bg-[#1481BA] rounded-[8px] px-[20px] py-[16px] flex justify-center items-center gap-[4px] mr-[32px] ">
+            {' '}
+            Get Started
+          </button>
+        </Link>
       </div>
     </div>
   );
